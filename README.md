@@ -15,4 +15,4 @@ How will you create it? What resources will you need? What programing language a
 How will you know that your project is successful? How will you measure success? 
 
 ## Instructions for preparing the slides
-You will be making the slides using GitHub markdown and the gnab/remark package. Look at the [example slideshow here](https://remarkjs.com/#1) for instructions how to use gnab/remark.
+You will be making the slides using GitHub markdown and the [gnab/remark package](https://github.com/gnab/remark). Look at the [example slideshow here](https://remarkjs.com/#1) for instructions how to use gnab/remark.
