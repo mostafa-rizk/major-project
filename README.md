@@ -1,5 +1,5 @@
 # Project Pitch
-Template for shark tank slides in markdown
+Template for project pitch slides in markdown.
 
 The project pitch for the major project consists of four slides that address what you will make, why you will make it, how you going to make it and how you will know if your project was successful.
 
