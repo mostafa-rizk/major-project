@@ -1,4 +1,4 @@
-# Project Pitch
+# CSE1910 - CSE Project A
 Template for project pitch slides in markdown. In this assignment you will develop a pitch for your major project. The project pitch for the consists of four slides that address what you will make, why you will make it, how you going to make it and how you will know if your project was successful. You will use these slides to share your project pitch with the rest of the class.
 
 ## Choosing a Major Project
