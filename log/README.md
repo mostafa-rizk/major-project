@@ -1,1 +1,2 @@
-This is the folder when project logs are located.
+# README : log
+This folder is for project logs 
