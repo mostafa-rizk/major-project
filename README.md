@@ -1,8 +1,7 @@
 # README : CSE1910 - CSE Project A
 
-## Learning Outcomes
-
 ## Expectations
+In this assignment you will use project-based learning to connect and extend your previous learning in computer science. Take this assignment as a learning experience, not an easy grade. Your success will suffer if you do not sincerely pursue a project that interests you.
 
 ## Evaluation
 The following components of the major project are evaluated:
