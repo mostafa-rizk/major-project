@@ -6,8 +6,6 @@
 
 ## Evaluation
 The following components of the major project are evaluated:
-| Component | Weight | Deadline |
-| --- | --- | --- |
 
 1. Pitch (10%)
 2. Proposal (10%)
