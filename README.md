@@ -8,7 +8,7 @@ While you have freedom in selecting your project based on your interests (i.e. y
 
 * You must be passionate about your project
 * Result in a final product (software, hardware, digital resource, etc.) 
-* You must able to acces it at school every day for the rest of the class (physically and/or virtually)
+* You must able to access it at school every day for the rest of the class (physically and/or virtually)
 * Connect to topics and concepts covered in Computer Science 10
 * Using git and GitHub for source control management
 * Cannot consist of only binaries
