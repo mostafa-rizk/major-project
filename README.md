@@ -41,4 +41,6 @@ While you are free to choose a project that you are keep on pursuing, here are s
 * [RetroPie](https://retropie.org.uk/)
 * [Digital picture frame using a Raspberry Pi](http://lifehacker.com/build-a-smarter-digital-photo-frame-with-a-raspberry-pi-1495565726)
 * [Face recognition on the Raspberry Pi](https://www.raspberrypi.org/blog/facial-recognition-opencv-on-the-camera-board/)
-* [Security camera using the Raspberry Pi](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera)
+* [Security camera using the Raspberry Pi](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera) or [here](https://docs.particle.io/tutorials/projects/particle-pi-security-camera/)
+* [Lollipop game controller using Raspberry Pi](https://www.raspberrypi.org/blog/pi-powered-wonder-pop-controller/)
+* [Raspberry Pi powered dashbord](https://www.initialstate.com/)
