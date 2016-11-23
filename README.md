@@ -35,8 +35,10 @@ While you are free to choose a project that you are keep on pursuing, here are s
 * [Program Minecraft on the Raspberry Pi](https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/)
 * [Build a blog with Jekyll and host in on GitHub](https://jekyllrb.com/)
 * [Build a web page with HTML5 Boilerplate](https://html5boilerplate.com/)
-* Hack and remix social media, scrape twitter/snapshat etc., generate image/art in Processing and repost on social media. See for example [#iFeelHumanity](https://github.com/mariopineda/iFeelHumanity)
+* Hack and remix social media, scrape twitter/snapshat etc., generate image/art in Processing and repost on social media. See for example [#iFeelHumanity](https://github.com/mariopineda/iFeelHumanity) and [Glacier](http://www.stfj.net/index2.php?year=2016&project=art/2016/Glaciers)
 * [Card game in Processing](https://youtu.be/-AVKKQn9QfA)
 * [Pong game in Processing](https://youtu.be/SsZmuEEHcbU?list=PLf5zPS-STiK8JoDStTZFnYsjoJ61Ssa4I)
 * [RetroPie](https://retropie.org.uk/)
-* Digital picture frame using a Raspberry Pi 
+* [Digital picture frame using a Raspberry Pi](http://lifehacker.com/build-a-smarter-digital-photo-frame-with-a-raspberry-pi-1495565726)
+* [Face recognition on the Raspberry Pi](https://www.raspberrypi.org/blog/facial-recognition-opencv-on-the-camera-board/)
+* [Security camera using the Raspberry Pi](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera)
