@@ -5,6 +5,8 @@ In this assignment you will use project-based learning to connect and extend you
 
 ## Project Selection
 While you have freedom in selecting your project based on your interests (i.e. you have lots of freedom when choosing a project) your project has to fullfill the following criteria in order to be approved:
+
+* You must be passionate about your project
 * Result in a final product (software, hardware, digital resource, etc.) 
 * You must able to acces it at school every day for the rest of the class (physically and/or virtually)
 * Connect to topics and concepts covered in Computer Science 10
