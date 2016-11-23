@@ -18,3 +18,6 @@ How will you know that your project is successful? How will you measure success?
 
 ## Instructions for preparing the slides
 You will be making the slides using GitHub markdown and the [gnab/remark package](https://github.com/gnab/remark). Look at the [example slideshow here](https://remarkjs.com/#1) for instructions how to use gnab/remark. Create your slides in the file called ```slides.html```. Use the exemplar to look at syntax of the markdown for making slides.
+
+## To view slides
+Once you have cloned your repository to your local computer you can view tour slides by opening the ```slides.html``` in your browser (Press CTRL + O in the Chrome browser to open a file).
