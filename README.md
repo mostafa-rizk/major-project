@@ -35,7 +35,7 @@ Cannot think of a project to work on? Here are some suggestions...
 * [Program Minecraft on the Raspberry Pi](https://www.raspberrypi.org/learning/getting-started-with-minecraft-pi/)
 * [Build a blog with Jekyll and host in on GitHub](https://jekyllrb.com/)
 * [Build a web page with HTML5 Boilerplate](https://html5boilerplate.com/)
-* Hack and remix social media, scrape twitter/snapshat etc., generate image/art in Processing and repost on social media. See for example [#iFeelHumanity](https://github.com/mariopineda/iFeelHumanity) and [Glacier](http://www.stfj.net/index2.php?year=2016&project=art/2016/Glaciers)
+* Hack and remix social media, scrape twitter/snapshat etc., generate image/art in Processing and repost on social media. See for example [#iFeelHumanity](https://github.com/mariopineda/iFeelHumanity) and [Glacier](http://www.stfj.net/index2.php?year=2016&project=art/2016/Glaciers) and [DeepDrumpf](https://www.gofundme.com/deepdrumpf)
 * [Card game in Processing](https://youtu.be/-AVKKQn9QfA)
 * [Pong game in Processing](https://youtu.be/SsZmuEEHcbU?list=PLf5zPS-STiK8JoDStTZFnYsjoJ61Ssa4I)
 * [RetroPie](https://retropie.org.uk/)
