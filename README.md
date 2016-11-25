@@ -2,9 +2,13 @@
 
 ## Time Line
 Week 1: Nov 25 - Dec 3
+
 Week 2: Dec 4 - Dec 10
+
 Week 3: Dec 11 - Dec 17
+
 Week 4: Dec 18 - Dec 24
+
 Week 5: Dec 25 - Jan 14
 
 ## Expectations
