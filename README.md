@@ -1,5 +1,12 @@
 # README : CSE1910 - CSE Project A
 
+## Time Line
+Week 1: Nov 25 - Dec 3
+Week 2: Dec 4 - Dec 10
+Week 3: Dec 11 - Dec 17
+Week 4: Dec 18 - Dec 24
+Week 5: Dec 25 - Jan 14
+
 ## Expectations
 In this assignment you will use project-based learning to connect and extend your previous learning in computer science. Take this assignment as a learning experience, not an easy grade. Your success will suffer if you do not sincerely pursue a project that interests you.
 
