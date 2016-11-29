@@ -1,5 +1,7 @@
 # README : proposal
 
+__Read these instructions carefully before you start writing your proposal__
+
 After the pitch you are required to reflect on the feedback you recieved from peers and from their teacher and use this as the basis for your project proposal. For the project proposal you need to include all the specific details about your project. To have a successful project proposal you need to address questions below. You need to include links to relevant websites and resources. Your project proposal will be reviewed and marked by your teacher. Unsuccessful proposal (<50%) will have to be revised and handed in again (until they recieve a mark of at least 50%).
 
 1. Describe, in detail, your final product. What are the mechanics of your product (e.g. game mechanics, web site structure and content, etc). For example, if you are building a game your description has to include the specifics of how the game will work, who is playing against who, levels, score keeping, graphics etc. If you are making a website your description has to include specifics on what the website will contain, a site map, hosting plans, source of content etc.
