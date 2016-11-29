@@ -55,3 +55,11 @@ Cannot think of a project to work on? Here are some suggestions...
 * [Security camera using the Raspberry Pi](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera) or [here](https://docs.particle.io/tutorials/projects/particle-pi-security-camera/)
 * [Lollipop game controller using Raspberry Pi](https://www.raspberrypi.org/blog/pi-powered-wonder-pop-controller/)
 * [Raspberry Pi powered dashbord](https://www.initialstate.com/)
+
+## Keeping up to date with the master repository
+To keep your local assignmetn repository up to date with your teacher's repository you need to issue the following commands from the terminal:
+```
+git add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
+git fetch upstream
+git merge upstream/master
+```
