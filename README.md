@@ -63,3 +63,5 @@ git add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
 git fetch upstream
 git merge upstream/master
 ```
+
+The first time you are updating your local assignment repository you need to run all three commands, subsequent updates will only require the second and third command.
