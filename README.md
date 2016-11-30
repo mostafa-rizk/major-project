@@ -3,15 +3,17 @@
 **Remember that this project is worth 1 full credit (CSE1910: CSE Project A). Complete all the basic requirements FIRST before progressing to the extras.**
 
 ## Time Line
-Week 1: Nov 25 - Dec 3
+Note: all deadlines are at the end of Friday class.
 
-Week 2: Dec 4 - Dec 10
+Week 1: Nov 25 - Dec 2
 
-Week 3: Dec 11 - Dec 17
+Week 2: Dec 3 - Dec 9
 
-Week 4: Dec 18 - Dec 24
+Week 3: Dec 10 - Dec 16
 
-Week 5: Dec 25 - Jan 14
+Week 4: Dec 17 - Dec 23
+
+Week 5: Dec 24 - Jan 13
 
 ## Expectations
 In this assignment you will use project-based learning to connect and extend your previous learning in computer science. Take this assignment as a learning experience, not an easy grade. Your success will suffer if you do not sincerely pursue a project that interests you.
