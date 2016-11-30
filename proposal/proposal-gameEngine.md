@@ -6,7 +6,7 @@
 * Theme/Look:
 
 ## Materials & Methods
-_Which Game Engine will you be using? Where/how will get it? How much does it cost and have you already purchased a licence? Will you be able to run the Game Engine on the school computers? If not, how will you work on your project in school (bring in own laptopn?)?_
+_Which Game Engine will you be using? Where/how will get it? How much does it cost and have you already purchased a licence? Will you be able to run the Game Engine on the school computers? If not, how will you work on your project in school (bring in own laptop?, etc)?_
 
 ## Game Specifications
 ### Level 1
@@ -56,4 +56,13 @@ Descript in detail what you will complete by the end of each week (end of the Fr
 ### Week 4
 
 ### Week 5
+
+# Evaluation
+_What will a 60% project look like?  In other words, what is the minimum expectations you have for yourself?  List some specific features of your project that are needed to reach 60%._
+
+_What does 80% look like?   List some specific features of your project that are needed to reach 80%._
+
+_What does 90+% look like?   List some specific features of your project that are needed to reach 90+%._
+
+
 
