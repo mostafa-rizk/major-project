@@ -47,16 +47,11 @@ _What are some Game Mechanics you intend to use that you think you will need hel
 
 ## Time Line
 _Describe in detail what you will complete by the end of each week (end of Friday class)._
-
-### Week 1
-
-### Week 2
-
-### Week 3
-
-### Week 4
-
-### Week 5
+* Week 1:
+* Week 2:
+* Week 3:
+* Week 4:
+* Week 5:
 
 # Evaluation
 ## 60%
