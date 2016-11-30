@@ -46,7 +46,7 @@ _Which of the following variables do you anticipate using? Explain how your gamn
 _What are some Game Mechanics you intend to use that you think you will need help with._
 
 ## Time Line
-_Describe in detail what you will complete by the end of each week (end of the Friday class)._
+_Describe in detail what you will complete by the end of each week (end of Friday class)._
 
 ### Week 1
 
