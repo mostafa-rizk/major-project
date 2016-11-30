@@ -35,7 +35,7 @@ _Which Game Engine will you be using? Where/how will get it? How much does it co
 * How to beat the level:
 
 ## Game Variables
-_Which of the following variables do you anticipate using? Explain how your gamne will be using the variables._
+_Which of the following variables do you anticipate using? Explain how your game will be using the variables._
 * Gravity:
 * Lives/Health:
 * Custom Variable:
@@ -43,7 +43,7 @@ _Which of the following variables do you anticipate using? Explain how your gamn
 * Custom Variable:
 
 ## Potential Challenges
-_What are some Game Mechanics you intend to use that you think you will need help with._
+_What are some game mechanics you intend to use that you think you will need help with._
 
 ## Time Line
 _Describe in detail what you will complete by the end of each week (end of Friday class)._
