@@ -6,13 +6,13 @@ After the pitch you are required to reflect on the feedback you recieved from yo
 
 For a proposal to be successful it needs to get a mark of at least 50%. The following is the marking rubric that will be used for marking the proposal.
 
-| Categoro | |
-| ---| --- |
-| The proposal is complete and contains the all the necessary details | |
-| it is clear from the proposal that the necessary background research has been done and that the appropriate tools, techniques and challenges have been identified | |
-| Appropriate Markdown syntax has been used | |
-| Required supplementary material is included | |
-| Complete sentences/paragraphs and correct English spelling, gramar and punctuation is used | |
+| Concerns | Criteria | Advanced |
+| ---| --- | --- |
+| | The proposal is complete and contains the all the necessary details | |
+| | It is clear from the proposal that the necessary background research has been done and that the appropriate tools, techniques and challenges have been identified | |
+| | Appropriate Markdown syntax has been used | |
+| | Required supplementary material is included | |
+| | Complete sentences/paragraphs and correct English spelling, grammar and punctuation is used | |
 
 
 include all the specific details about your project. To have a successful project proposal you need to address questions below. You need to include links to relevant websites and resources. Your project proposal will be reviewed and marked by your teacher. Unsuccessful proposal (<50%) will have to be revised and handed in again (until they recieve a mark of at least 50%).
