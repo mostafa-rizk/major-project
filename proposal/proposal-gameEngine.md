@@ -1,9 +1,12 @@
 # Working Title:
-## Name: of Lead Designer(s): 
+## Name of Lead Designer(s): 
 
 * Main game genre(s): 
 
 * Theme/Look:
+
+## Materials & Methods
+_Which Game Engine will you be using? Where/how will get it? How much does it cost and have you already purchased a licence? Will you be able to run the Game Engine on the school computers? If not, how will you work on your project in school (bring in own laptopn?)?_
 
 ## Game Specifications
 ### Level 1
@@ -38,7 +41,8 @@ Which of the following variables do you anticipate using?
 * Custom Variable:
 * Custom Variable:
 
-What are some Game Mechanics I intend to use that I think I will need help with:
+## Potential Challenges
+What are some Game Mechanics you intend to use that you think you will need help with:
 
 ## Time Line
 Descript in detail what you will complete by the end of each week (end of the Friday class).
@@ -53,8 +57,3 @@ Descript in detail what you will complete by the end of each week (end of the Fr
 
 ### Week 5
 
-## Materials & Methods
-
-## Potential Challanges
-
-## Indicators of Success
