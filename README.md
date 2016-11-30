@@ -61,14 +61,16 @@ Cannot think of a project to work on? Here are some suggestions...
 * [Raspberry Pi powered dashbord](https://www.initialstate.com/)
 
 ## Keeping up to date with the master repository
-To keep your local assignmetn repository up to date with your teacher's repository you need to issue the following commands from the terminal:
+To keep your local assignment repository up to date with your teacher's repository you need to issue the following commands from the terminal:
 ```
-git add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
+git remote add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
 git fetch upstream
 git merge upstream/master
 ```
 
 The first time you are updating your local assignment repository you need to run all three commands, subsequent updates will only require the second and third command.
+
+Once you have merged your version of the repository with your teacher's version do: ```git pull```. Check if there are any conflicts (if they are you have to fix them manually) and finish by committing (```commit```) and pushing (```push```).
 
 ## Building Web Pages
 This repository has been set up with a web page template. To access the source code for the web page template you need to change the current working branch to the gh-pages. You can access the web site through the browser at http://mariopineda.github.io/CSE1910-CSE-Project-A/.
