@@ -65,3 +65,6 @@ git merge upstream/master
 ```
 
 The first time you are updating your local assignment repository you need to run all three commands, subsequent updates will only require the second and third command.
+
+## Building Web Pages
+This repository has been set up with a web page template. To access the source code for the web page template you need to change the current working branch to the gh-branch. You can access the web site through the browser at http://mariopineda.github.io/CSE1910-CSE-Project-A/.
