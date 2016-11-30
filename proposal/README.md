@@ -11,7 +11,7 @@ There are three verions of the proposal template file. You only have to complete
 
 For a proposal to be successful it needs to get a mark of at least 50%. Unsuccessful proposal (a mark of <50%) will have to be revised and handed in again (until they recieve a mark of at least 50%).
 
-The following is the marking rubric that will be used for marking the proposal.
+# Marking Rubric
 
 | Concerns (_Areas that need work_) | Criteria (_Criteria for proficiency_) | Advanced (_Evidence of exceeding proficiency_) |
 | ---| --- | --- |
