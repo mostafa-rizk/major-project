@@ -34,18 +34,19 @@ _Which Game Engine will you be using? Where/how will get it? How much does it co
 * New Skills or Challenges (Remember that each level should allow the user to practice a new skill before reaching difficulty ramps up.):
 * How to beat the level:
 
-Which of the following variables do you anticipate using?
-* Gravity
-* Lives/Health
+## Game Variables
+_Which of the following variables do you anticipate using? Explain how your gamne will be using the variables._
+* Gravity:
+* Lives/Health:
 * Custom Variable:
 * Custom Variable:
 * Custom Variable:
 
 ## Potential Challenges
-What are some Game Mechanics you intend to use that you think you will need help with:
+_What are some Game Mechanics you intend to use that you think you will need help with._
 
 ## Time Line
-Descript in detail what you will complete by the end of each week (end of the Friday class).
+_Describe in detail what you will complete by the end of each week (end of the Friday class)._
 
 ### Week 1
 
@@ -58,10 +59,13 @@ Descript in detail what you will complete by the end of each week (end of the Fr
 ### Week 5
 
 # Evaluation
+## 60%
 _What will a 60% project look like?  In other words, what is the minimum expectations you have for yourself?  List some specific features of your project that are needed to reach 60%._
 
+## 80%
 _What does 80% look like?   List some specific features of your project that are needed to reach 80%._
 
+## 90+%
 _What does 90+% look like?   List some specific features of your project that are needed to reach 90+%._
 
 
