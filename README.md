@@ -1,5 +1,7 @@
 # README : CSE1910 - CSE Project A
 
+__Remember that this project is worth 1 full credit (CSE1910: CSE Project A). Complete all the basic requirements FIRST before progressing to the extras. __
+
 ## Time Line
 Week 1: Nov 25 - Dec 3
 
