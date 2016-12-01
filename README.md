@@ -74,3 +74,6 @@ Once you have merged your version of the repository with your teacher's version 
 
 ## Building Web Pages
 This repository has been set up with a web page template. To access the source code for the web page template you need to change the current working branch to the gh-pages. You can access the web site through the browser at http://mariopineda.github.io/CSE1910-CSE-Project-A/.
+
+## Exemplar Project
+See [CSE1910-CSE-Project-A-Mario-Pineda](https://github.com/QEHSCS/CSE1910-CSE-Project-A-Mario-Pineda) project exemplar.
