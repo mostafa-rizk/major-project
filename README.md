@@ -72,11 +72,9 @@ git remote add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
 git fetch upstream
 git merge upstream/master
 ```
-**Step 3:** Resolve possible merge conflicts.
+**Step 3:** Resolve possible merge conflicts and commit.
 
-**Step 4:** Commit your repository.
-
-**Step 5:** Push your repository to GitHub.
+**Step 5:** You local repository has now been updated using your teacher's master respository. Finally you need to push your local repository to GitHub to make sure that your GitHub repository is updated as well.
 
 ## Building Web Pages
 This repository has been set up with a web page template. To access the source code for the web page template you need to change the current working branch to the gh-pages. You can access the web site through the browser at http://mariopineda.github.io/CSE1910-CSE-Project-A/.
