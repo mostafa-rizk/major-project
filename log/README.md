@@ -14,6 +14,9 @@ Your weekly log messages have to describe in detail your progress over the last 
 * As a guideline, aim for at least two paragraphs per heading. Have someone proof read and give feedback on your log entry before the deadline passes. 
 * You can work on your logs (fixing errors, typos, and imnproving them) until the deadline. Any commits after the deadline will be ignored and the commit closest to the deadline will marked. 
 
+## Exemplar Project
+Check out the logs in the exemplar project: [CSE1910-CSE-Project-A-Mario-Pineda](https://github.com/QEHSCS/CSE1910-CSE-Project-A-Mario-Pineda) project exemplar.
+
 # Marking Rubric
 ## Week 1
 
