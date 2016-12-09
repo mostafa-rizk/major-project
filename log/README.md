@@ -13,3 +13,17 @@ Your weekly log messages have to describe in detail your progress over the last 
 * Log entries have to be detailed, specific, accurate and use correct English language conventions and spelling. Typos and sloppy log entries are not acceptable and will result in deductions. 
 * As a guideline, aim for at least two paragraphs per heading. Have someone proof read and give feedback on your log entry before the deadline passes. 
 * You can work on your logs (fixing errors, typos, and imnproving them) until the deadline. Any commits after the deadline will be ignored and the commit closest to the deadline will marked. 
+
+# Marking Rubric
+## Week 1
+
+| Concerns (_Areas that need work_) | Criteria (_Criteria for proficiency_) | Advanced (_Evidence of exceeding proficiency_) |
+| ---                               | ---                                   | ---                                            |
+| | All required questions have been answered with sufficient detail | |
+| | Log messages are accurate and constent with commit history | |
+| | Appropriate Markdown syntax is used | |
+| | Complete sentences/paragraphs and correct English spelling, grammar and punctuation is used | |
+
+__Comments:__
+
+__Proposal mark:__
