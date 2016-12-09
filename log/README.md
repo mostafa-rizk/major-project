@@ -19,6 +19,7 @@ Your weekly log messages have to describe in detail your progress over the last 
 
 | Concerns (_Areas that need work_) | Criteria (_Criteria for proficiency_) | Advanced (_Evidence of exceeding proficiency_) |
 | ---                               | ---                                   | ---                                            |
+| | Log and commit message show evidence of progress and that class time has been used efficiently | | 
 | | All required questions have been answered with sufficient detail | |
 | | Log messages are accurate and constent with commit history | |
 | | Appropriate Markdown syntax is used | |
