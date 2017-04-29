@@ -1,5 +1,5 @@
 # Major Project Option
-At the teacher's discretion students may be assigned one of the following projects.
+At your teacher's discretion students may be assigned the following project.
 
 ## Option 1: Dice Game
 The rules to this casino game are simple. The player rolls a die; the casino rolls a die. The higher number wins. If it is a tie, the player wins big! 
