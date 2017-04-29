@@ -20,5 +20,3 @@ For a proposal to be successful it needs to get a mark of at least 50%. Unsucces
 | | Required supplementary material is included | |
 | | Complete sentences/paragraphs and correct English spelling, grammar and punctuation is used | |
 
-__Comments:__
-__Proposal mark:__
