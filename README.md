@@ -2,19 +2,6 @@
 
 **Remember that this project is worth 1 full credit (CSE1910: CSE Project A). Complete all the basic requirements FIRST before progressing to the extras.**
 
-## Time Line
-Note: all deadlines are at the end of Friday class.
-
-Week 1: Nov 25 - Dec 2
-
-Week 2: Dec 3 - Dec 9
-
-Week 3: Dec 10 - Dec 16
-
-Week 4: Dec 17 - Dec 23
-
-Week 5: Dec 24 - Jan 13
-
 ## Expectations
 In this assignment you will use project-based learning to connect and extend your previous learning in computer science. Take this assignment as a learning experience, not an easy grade. Your success will suffer if you do not sincerely pursue a project that interests you.
 
@@ -31,7 +18,7 @@ While you have freedom in selecting your project based on your interests (i.e. y
 * Must be safe for you and for the user
 
 ## Collaborative Projects
-Collaborative projects are approved on an individual basis and require all the students in the group to have shown mastery of git/GitHub concepts and workflow. Talk to your teacher if you are considering a collaborative project.
+Collaboarative projects are not permitted.
 
 ## Evaluation
 The following components of the major project are evaluated:
