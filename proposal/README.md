@@ -11,7 +11,7 @@ There are three verions of the proposal template file. You only have to complete
 
 For a proposal to be successful it needs to get a mark of at least 50%. Unsuccessful proposal (a mark of <50%) will have to be revised and handed in again (until they recieve a mark of at least 50%).
 
-# Turning in Your Proposal for Markig
+# Turning in Your Proposal for Marking
 Turn in your proposal fotr marking using [the following Google Form]( https://docs.google.com/a/epsb.ca/forms/d/e/1FAIpQLSdnnOUlwawWq9wmrKJZH40JlfNuSE8QaFGsJ_6OlzZle7m3MA/viewform).
 
 # Marking Rubric
