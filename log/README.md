@@ -1,7 +1,7 @@
 # README : log
 This folder is for project logs.
 
-You are required to make a weekly log and commit it to this folder. The weekly logs are due at **Saturday midnight**. Late logs are not accepted and will marked as NHI. Any commits past the deadline will not be marked.
+You are required to make a weekly log and commit it to this folder. The weekly logs are due at **Friday midnight**. Late logs are not accepted and will marked as NHI. Any commits past the deadline will not be marked.
 
 The weekly logs are to be written using markdown and have to be saved using in the files named: ```week1.md```, ```week2.md```, etc.
 
