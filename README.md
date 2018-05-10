@@ -37,28 +37,3 @@ Cannot think of a project to work on? Here are some suggestions...
 * [Digital picture frame using a Raspberry Pi](http://lifehacker.com/build-a-smarter-digital-photo-frame-with-a-raspberry-pi-1495565726)
 * [Face recognition on the Raspberry Pi](https://www.raspberrypi.org/blog/facial-recognition-opencv-on-the-camera-board/)
 * [Security camera using the Raspberry Pi](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera) or [here](https://docs.particle.io/tutorials/projects/particle-pi-security-camera/)
-
-## How to start...
-Start by forking this repository.
-
-## Keeping up to date with the master repository
-To keep your local assignment repository up to date with your teacher's repository you need follow the following procedure from the terminal (shell in Linux and Git Shell in the Windows GitHub client).
-
-**Step 1:** The first time you are updating your repository you need to run the following command:
-```
-git remote add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
-```
-**Step 2:** If you are using the same computer you do not have to do Step 1 in subsequent updates and you can skip right to Step 2. In this step you need to run the following two commands:
-```
-git fetch upstream
-git merge upstream/master
-```
-**Step 3:** Resolve possible merge conflicts and commit.
-
-**Step 5:** You local repository has now been updated using your teacher's master respository. Finally you need to push your local repository to GitHub to make sure that your GitHub repository is updated as well.
-
-## Building Web Pages
-This repository has been set up with a web page template. To access the source code for the web page template you need to change the current working branch to the gh-pages. You can access the web site through the browser at http://mariopineda.github.io/CSE1910-CSE-Project-A/.
-
-## Exemplar Project
-See [CSE1910-CSE-Project-A-Mario-Pineda](https://github.com/QEHSCS/CSE1910-CSE-Project-A-Mario-Pineda) project exemplar.
