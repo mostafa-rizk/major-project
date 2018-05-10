@@ -1,7 +1,9 @@
 # Log Message for Major Project for Week 1
 ## What was your goal for the past week?
 
-Just a test
+Just a test.
+
+Another test...
 
 ## Did you accomplish last week’s goal? Why/why not?
 
