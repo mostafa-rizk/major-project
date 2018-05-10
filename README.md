@@ -38,6 +38,9 @@ Cannot think of a project to work on? Here are some suggestions...
 * [Face recognition on the Raspberry Pi](https://www.raspberrypi.org/blog/facial-recognition-opencv-on-the-camera-board/)
 * [Security camera using the Raspberry Pi](http://www.codeproject.com/Articles/665518/Raspberry-Pi-as-low-cost-HD-surveillance-camera) or [here](https://docs.particle.io/tutorials/projects/particle-pi-security-camera/)
 
+## How to start...
+Start by forking this repository.
+
 ## Keeping up to date with the master repository
 To keep your local assignment repository up to date with your teacher's repository you need follow the following procedure from the terminal (shell in Linux and Git Shell in the Windows GitHub client).
 
