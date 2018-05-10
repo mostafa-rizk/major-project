@@ -1,24 +1,23 @@
-# majo-project
+# major-project
 
-**The major project is worth 1 full credit. Complete all the basic requirements FIRST before progressing to extras.**
+**The major project is worth 1 full credit.**
 
 ## Expectations
 In this assignment you will use project-based learning to connect and extend your previous learning in computer science. Take this assignment as a learning experience, not an easy grade. Your success will suffer if you do not sincerely pursue a project that interests you.
 
 ## Project Selection
 While you have freedom in selecting your project based on your interests your project has to fullfill all the following criteria:
-* Result in a final software product
-* You must able to access it at school every day for the rest of the class (physically and/or virtually)
-* Connect to topics and concepts covered in class (using Processing for Introductory Computer Science and java for Intermediate and Advanced Computer Science)
+* Result in a final product(s) (software, website etc).
+* You must able to access it at school every day (physically and/or virtually)
+* Connect to topics and concepts covered in class 
 * Using git and GitHub for source control management
 * Legal and safe to develop and use 
 
 ## Collaborative Projects
-Collaboarative projects are not permitted.
+Collaborative projects are not permitted.
 
 ## Evaluation
-The following components of the major project are evaluated:
-
+The following components of the major project are evaluated with the folowing weights:
 1. Pitch (10%)
 2. Proposal (10%)
 3. Log entries and source control management (50%)
