@@ -1,7 +1,7 @@
 # README : pitch
 This folder is for the pitch presentation.
 
-The project pitch consists of four slides that address what you will make, why you will make it, how you going to make it and how you will know if your project is successful. You will use these slides to share your project pitch with the rest of the class in group presentations.
+The project pitch consists of four slides that address what you will make, why you will make it, how you going to make it and how you will know if your project is successful. 
 
 ## The Pitch Slides
 ### What
