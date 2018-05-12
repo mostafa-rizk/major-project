@@ -9,9 +9,9 @@ In this assignment you will use project-based learning to connect and extend you
 While you have freedom in selecting your project based on your interests your project has to fullfill all the following criteria:
 * Result in a final product(s) (software, website etc).
 * You must able to access it at school every day (physically and/or virtually)
-* Connect to topics and concepts covered in class 
+* Connect to topics and concepts covered in class
 * Using git and GitHub for source control management
-* Legal and safe to develop and use 
+* Legal and safe to develop and use
 
 ## Collaborative Projects
 Collaborative projects are not permitted.
