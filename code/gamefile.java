@@ -9,7 +9,9 @@ public class gamefile {
       grid[0][0] = "_"; grid[0][1] = "_"; grid[0][2] = "_";
       grid[1][0] = "_"; grid[1][1] = "_"; grid[1][2] = "_";
       grid[2][0] = "_"; grid[2][1] = "_"; grid[2][2] = "_";
-      char userIcon;
+      char userIcon, compIcon = 'a';
+      String userChoice;
+      int turn = 1;
       boolean gameComplete = false;
       System.out.println("Welcome to Tic-tac-toe. You will choose where to put your piece using letters and numbers to represent a grid system where the top left is the origin. For example, type 'A2' for first row and second column.");
       try {
@@ -18,10 +20,12 @@ public class gamefile {
             userIcon = kbReader.next(".").charAt(0);
             if (userIcon == 'x' || userIcon == 'X') {
                userIcon = 'x';
+               compIcon = 'o';
                System.out.println("Your icon has been set to 'x'");
             }
             else if (userIcon == 'o' || userIcon == 'O') {
                userIcon = 'o';
+               compIcon = 'x';
                System.out.println("Your icon has been set to 'o'");
             }
             else {
@@ -33,6 +37,7 @@ public class gamefile {
       catch (Exception e) {
          System.out.println("You entered an invalid input. A default icon of 'x' has been chosen for you");
          userIcon = 'x';
+         compIcon = 'o';
       }
       while (!gameComplete) {
          System.out.print("  ");
@@ -50,7 +55,27 @@ public class gamefile {
             }
             System.out.println();
          }
-         break ;
+         if (turn != 1) {
+            
+         }
+         else {
+            Random r = new Random();
+            int temp = r.nextInt(3-1) + 1;
+            if (temp == 1) {
+               grid[1][1] = Character.toString(compIcon);
+            }
+            else {
+               temp = r.nextInt(5-1) + 1;
+               switch (temp) {
+                  case 1: grid[0][0] = Character.toString(compIcon); break;
+                  case 2: grid[0][2] = Character.toString(compIcon); break;
+                  case 3: grid[2][0] = Character.toString(compIcon); break;
+                  case 4: grid[2][2] = Character.toString(compIcon); break;
+               }
+            }
+         }
+         turn++;
+         //break;
       }
    }
 }
