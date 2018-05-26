@@ -4,7 +4,12 @@ import java.util.*;
 public class gamefile {
    public static void main(String args[]) {
       Scanner kbReader = new Scanner(System.in);
+      String[][] grid = new String[3][3];
+      grid[0][0] = "_"; grid[0][1] = "_"; grid[0][2] = "_";
+      grid[1][0] = "_"; grid[1][1] = "_"; grid[1][2] = "_";
+      grid[2][0] = "_"; grid[2][1] = "_"; grid[2][2] = "_";
       char userIcon;
+      boolean gameComplete = false;
       System.out.println("Welcome to Tic-tac-toe. You will choose where to put your piece using letters and numbers to represent a grid system where the top left is the origin. For example, type 'A2' for first row and second column.");
       try {
          do {
@@ -27,6 +32,9 @@ public class gamefile {
       catch (Exception e) {
          System.out.println("You entered an invalid input. A default icon of 'x' has been chosen for you");
          userIcon = 'x';
+      }
+      while (!gameComplete) {
+         
       }
    }
 }
