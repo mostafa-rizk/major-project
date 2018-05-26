@@ -4,7 +4,8 @@ import java.util.*;
 public class gamefile {
    public static void main(String args[]) {
       Scanner kbReader = new Scanner(System.in);
-      String[][] grid = new String[3][3];
+      int gridSize = 3;
+      String[][] grid = new String[gridSize][gridSize];
       grid[0][0] = "_"; grid[0][1] = "_"; grid[0][2] = "_";
       grid[1][0] = "_"; grid[1][1] = "_"; grid[1][2] = "_";
       grid[2][0] = "_"; grid[2][1] = "_"; grid[2][2] = "_";
@@ -34,7 +35,22 @@ public class gamefile {
          userIcon = 'x';
       }
       while (!gameComplete) {
-         
+         System.out.print("  ");
+         for (int z = 0; z < gridSize; z++) {
+            System.out.print((z + 1) + " ");
+         }
+         System.out.println();
+         for (int i = 0; i < gridSize; i++) {
+            System.out.print((char)(i + 65) + " ");
+            for (int x = 0; x < gridSize; x++) {
+               System.out.print(grid[i][x]);
+               if (x < 2) {
+                  System.out.print("|");
+               }
+            }
+            System.out.println();
+         }
+         break ;
       }
    }
 }
