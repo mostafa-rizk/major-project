@@ -56,7 +56,26 @@ public class gamefile {
             System.out.println();
          }
          if (turn != 1) {
-            
+            if (grid[1][1] != "_") {
+               for (int j = 0; j < 3; j+= 2) {
+                  for (int k = 0; k < 3; k+= 2) {
+                     if (grid[j][k] != "_") {
+                        if (j == 0) {
+                           j = 2;
+                        }
+                        else {
+                           j = 0;
+                        }
+                        if (k == 0) {
+                           k = 2;
+                        }
+                        else {
+                           k = 0;
+                        }
+                     }
+                  }
+               }
+            }
          }
          else {
             Random r = new Random();
