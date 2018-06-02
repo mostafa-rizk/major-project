@@ -14,8 +14,11 @@ For a proposal to be successful it needs to get a mark of at least 50%. Unsucces
 
 | Concerns (_Areas that need work_) | Criteria (_Criteria for proficiency_) | Advanced (_Evidence of exceeding proficiency_) |
 | ---| --- | --- |
-| | The proposal is complete and contains all the necessary details | |
-| | It is clear from the proposal that the necessary background research has been done and that the appropriate tools, techniques and challenges have been identified | |
-| | Appropriate Markdown syntax is used | |
-| | Required supplementary material is included | |
-| | Complete sentences/paragraphs and correct English spelling, grammar and punctuation is used | |
+| | The proposal is complete and contains all the necessary details | X |
+| | X It is clear from the proposal that the necessary background research has been done and that the appropriate tools, techniques and challenges have been identified | |
+| | Appropriate Markdown syntax is used | X |
+| X | Required supplementary material is included | |
+| | Complete sentences/paragraphs and correct English spelling, grammar and punctuation is used | X |
+
+12/15 (80%)
+ 
