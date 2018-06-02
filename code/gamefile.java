@@ -58,7 +58,7 @@ public class gamefile {
          }
          turn++;
          computerMoved = false;
-          if (turn == 1) { //Deciding computer's first move
+         if (turn == 1) { //Deciding computer's first move
             Random r = new Random();
             int temp = r.nextInt(3-1) + 1;
             if (temp == 1) {
@@ -196,24 +196,42 @@ public class gamefile {
                }
             }
          }
-         //break;
-         System.out.print("On which tile would you like to place your player icon? ");
-         userChoice = kbReader.next();
-         if (userChoice.length() == 2) {
-            switch (userChoice.substring(0,1).toUpperCase()) {
-               case "A": userColumn = 0; break;
-               case "B": userColumn = 1; break;
-               case "C": userColumn = 2; break;
-               default: userColumn = 3; System.out.println("The first letter of your input must be 'A', 'B', or 'C'"); break;
+            System.out.print("  ");
+            for (int z = 0; z < gridSize; z++) {
+               System.out.print((z + 1) + " ");
             }
-            if (userColumn = 3) {
-               
+            System.out.println();
+            for (int i = 0; i < gridSize; i++) {
+               System.out.print((char)(i + 65) + " ");
+               for (int x = 0; x < gridSize; x++) {
+                  System.out.print(grid[i][x]);
+                  if (x < 2) {
+                     System.out.print("|");
+                  }
+               }
+               System.out.println();
             }
-            if (grid[Integer.parseInt(userChoice.substring(1,2))][userColumn] == "_") {
-               grid[Integer.parseInt(userChoice.substring(1,2))][userColumn] == Character.toString(userIcon);
-            }
-            else {
-               System.out.println("The tile you selected is already occupied. Please select another tile.");
+         while (true) {
+            System.out.print("On which tile would you like to place your player icon? ");
+            userChoice = kbReader.next();
+            System.out.println(userChoice);
+            if (userChoice.length() == 2) {
+               switch (userChoice.substring(0,1).toUpperCase()) {
+                  case "A": userColumn = 0; break;
+                  case "B": userColumn = 1; break;
+                  case "C": userColumn = 2; break;
+                  default: userColumn = 3; System.out.println("The first letter of your input must be 'A', 'B', or 'C'"); break;
+               }
+               if (userColumn == 3) {
+                  continue;
+               }
+               if (grid[Integer.parseInt(userChoice.substring(1,2))-1][userColumn] == "_") {
+                  grid[Integer.parseInt(userChoice.substring(1,2))-1][userColumn] = Character.toString(userIcon);
+                  break;
+               }
+               else {
+                  System.out.println("The tile you selected is already occupied. Please select another tile.");
+               }
             }
          }
       }
