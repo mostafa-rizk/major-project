@@ -63,14 +63,15 @@ public class gamefile {
             int temp = r.nextInt(3-1) + 1;
             if (temp == 1) {
                grid[1][1] = Character.toString(compIcon);
+               lastMoveX = 1; lastMoveY = 1;
             }
             else {
                temp = r.nextInt(5-1) + 1;
                switch (temp) {
-                  case 1: grid[0][0] = Character.toString(compIcon); break;
-                  case 2: grid[0][2] = Character.toString(compIcon); break;
-                  case 3: grid[2][0] = Character.toString(compIcon); break;
-                  case 4: grid[2][2] = Character.toString(compIcon); break;
+                  case 1: grid[0][0] = Character.toString(compIcon); lastMoveX = 0; lastMoveY = 0; break;
+                  case 2: grid[0][2] = Character.toString(compIcon); lastMoveX = 0; lastMoveY = 2; break;
+                  case 3: grid[2][0] = Character.toString(compIcon); lastMoveX = 2; lastMoveY = 0; break;
+                  case 4: grid[2][2] = Character.toString(compIcon); lastMoveX = 2; lastMoveY = 2; break;
                }
             }
          }
@@ -91,6 +92,8 @@ public class gamefile {
                         else {
                            k = 0;
                         }
+                        grid[j][k] = Character.toString(compIcon);
+                        lastMoveX = j; lastMoveY = k;
                         computerMoved = true;
                      }
                   }
@@ -104,6 +107,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][k] == "_") {
                               grid[i][k] = Character.toString(compIcon);
+                              lastMoveX = i; lastMoveY = k;
                               computerMoved = true;
                            }
                         }
@@ -114,6 +118,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][k] == "_") {
                               grid[i][k] = Character.toString(compIcon);
+                              lastMoveX = i; lastMoveY = k;
                               computerMoved = true;
                            }
                         }
@@ -122,6 +127,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[k][i] == "_") {
                               grid[k][i] = Character.toString(compIcon);
+                              lastMoveX = k; lastMoveY = i;
                               computerMoved = true;
                            }
                         }
@@ -130,6 +136,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][i] == "_") {
                               grid[i][i] = Character.toString(compIcon);
+                              lastMoveX = i; lastMoveY = i;
                               computerMoved = true;
                            }
                         }
@@ -138,6 +145,7 @@ public class gamefile {
                         for (int i = 0, i2 = 2; i > 3; i++) {
                            if (grid[i][i2] == "_") {
                               grid[i][i2] = Character.toString(compIcon);
+                              lastMoveX = i; lastMoveY = i2;
                               computerMoved = true;
                            }
                            i2--;
@@ -149,6 +157,7 @@ public class gamefile {
                            for (int i = 0; i < 3; i++) {
                               if (grid[k-1][i] == "_") {
                                  grid[k-1][i] = Character.toString(compIcon);
+                                 lastMoveX = k-1; lastMoveY = i;
                                  computerMoved = true;
                               }
                            }
@@ -159,6 +168,7 @@ public class gamefile {
                               for (int i = 0; i < 3; i++) {
                                  if (grid[k+1][i] == "_") {
                                     grid[k+1][i] = Character.toString(compIcon);
+                                    lastMoveX = k+1; lastMoveY = i;
                                     computerMoved = true;
                                  }
                               }
@@ -168,7 +178,47 @@ public class gamefile {
                   }
                }
                if (!computerMoved) {
-                  
+                  if (lastMoveX != 1) {
+                     if (lastMoveX < 1) {
+                        if (lastMoveY != 1) {
+                           if (lastMoveY < 1) {
+                              
+                           }
+                           else {
+                              
+                           }
+                        }
+                        else {
+                           
+                        }
+                     }
+                     else {
+                        if (lastMoveY != 1) {
+                           if (lastMoveY < 1) {
+                              
+                           }
+                           else {
+                              
+                           }
+                        }
+                        else {
+                           
+                        }
+                     }
+                  }
+                  else {
+                     if (lastMoveY != 1) {
+                        if (lastMoveY < 1) {
+                           
+                        }
+                        else {
+                           
+                        }
+                     }
+                     else {
+                        
+                     }
+                  }
                }
             }
          }
