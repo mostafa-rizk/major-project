@@ -18,3 +18,16 @@ My goal for next week is to have my project finished and to hopefully be able to
 ## What are the main challenges you are facing next week?
 
 I don't believe I'll be facing any challenges next week, however I would like to try different solving algorithms and possibly test my project on larger size grids (for example, 9x9). I believe everything is accounted for, and any challenges that should arise I believe I will be able to handle without much trouble.
+
+# Marking Rubric
+
+| Concerns (_Areas that need work_) | Criteria (_Criteria for proficiency_) | Advanced (_Evidence of exceeding proficiency_) |
+| ---                               | ---                                   | ---                                            |
+| | Log and commit message show evidence of progress and that class time has been used efficiently | X |
+| | X All required questions have been answered with sufficient detail | |
+| | Log messages are accurate and constent with commit history | X |
+| | Appropriate Markdown syntax is used | X  |
+| | Complete sentences/paragraphs and correct English spelling, grammar and punctuation is used | X |
+
+14/15 (94%)
+Comments: Your weekly log has to include more technical details (at least two paragraphs per question)
