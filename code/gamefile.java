@@ -98,6 +98,7 @@ public class gamefile {
                      }
                   }
                }
+               break;
             }
             else if (!computerMoved){
                for (int k = 0; k < 3; k++) {
@@ -112,6 +113,7 @@ public class gamefile {
                            }
                         }
                      }
+                     break;
                   }
                   else {
                      if (grid[k-1][k] == currentIcon || grid[k+1][k] == currentIcon || grid[k-1][k] == grid[k+1][k]) { //Row
@@ -122,6 +124,7 @@ public class gamefile {
                               computerMoved = true;
                            }
                         }
+                        break;
                      }
                      else if (grid[k][k-1] == currentIcon || grid[k][k+1] == currentIcon || grid[k][k-1] == grid[k][k+1]) { //Column
                         for (int i = 0; i < 3; i++) {
@@ -131,6 +134,7 @@ public class gamefile {
                               computerMoved = true;
                            }
                         }
+                        break;
                      }
                      else if (grid[k-1][k-1] == currentIcon || grid[k+1][k+1] == currentIcon || grid[k-1][k-1] == grid[k+1][k+1]) { //Backslash
                         for (int i = 0; i < 3; i++) {
@@ -140,6 +144,7 @@ public class gamefile {
                               computerMoved = true;
                            }
                         }
+                        break;
                      }
                      else if (grid[k-1][k+1] == currentIcon || grid[k+1][k-1] == currentIcon || grid[k-1][k+1] == grid[k+1][k-1]) { //Forward slash
                         for (int i = 0, i2 = 2; i > 3; i++) {
@@ -150,6 +155,7 @@ public class gamefile {
                            }
                            i2--;
                         }
+                        break;
                      }
                      else { //Colum -1
                         currentIcon = grid[k-1][k];
@@ -161,6 +167,7 @@ public class gamefile {
                                  computerMoved = true;
                               }
                            }
+                           break;
                         }
                         else { //Column +1
                            currentIcon = grid[k+1][k];
@@ -173,6 +180,7 @@ public class gamefile {
                                  }
                               }
                            }
+                           break;
                         }
                      }
                   }
@@ -196,21 +204,21 @@ public class gamefile {
                }
             }
          }
-            System.out.print("  ");
-            for (int z = 0; z < gridSize; z++) {
-               System.out.print((z + 1) + " ");
+         System.out.print("  ");
+         for (int z = 0; z < gridSize; z++) {
+            System.out.print((z + 1) + " ");
+         }
+         System.out.println();
+         for (int i = 0; i < gridSize; i++) {
+            System.out.print((char)(i + 65) + " ");
+            for (int x = 0; x < gridSize; x++) {
+               System.out.print(grid[i][x]);
+               if (x < 2) {
+                  System.out.print("|");
+               }
             }
             System.out.println();
-            for (int i = 0; i < gridSize; i++) {
-               System.out.print((char)(i + 65) + " ");
-               for (int x = 0; x < gridSize; x++) {
-                  System.out.print(grid[i][x]);
-                  if (x < 2) {
-                     System.out.print("|");
-                  }
-               }
-               System.out.println();
-            }
+         }
          while (true) {
             System.out.print("On which tile would you like to place your player icon? ");
             userChoice = kbReader.next();
@@ -225,8 +233,8 @@ public class gamefile {
                if (userColumn == 3) {
                   continue;
                }
-               if (grid[Integer.parseInt(userChoice.substring(1,2))-1][userColumn] == "_") {
-                  grid[Integer.parseInt(userChoice.substring(1,2))-1][userColumn] = Character.toString(userIcon);
+               if (grid[userColumn][Integer.parseInt(userChoice.substring(1,2))-1] == "_") {
+                  grid[userColumn][Integer.parseInt(userChoice.substring(1,2))-1] = Character.toString(userIcon);
                   break;
                }
                else {
