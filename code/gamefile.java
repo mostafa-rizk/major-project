@@ -98,7 +98,7 @@ public class gamefile {
                for (int k = 0; k < 3; k++) {
                   currentIcon = grid[1][k];
                   if (k != 1) { //Check if on either row 1 or 3
-                     if (grid[k-1][k] == currentIcon || grid[k+1][k] == currentIcon || grid[k-1][k] == grid[k+1][k]) { //Row
+                     if (grid[0][k] == currentIcon || grid[2][k] == currentIcon || grid[0][k] == grid[2][k]) { //Row
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][k] == "_") {
                               grid[i][k] = Character.toString(compIcon);
@@ -108,26 +108,51 @@ public class gamefile {
                   }
                   else {
                      if (grid[k-1][k] == currentIcon || grid[k+1][k] == currentIcon || grid[k-1][k] == grid[k+1][k]) { //Row
-                        
+                        for (int i = 0; i < 3; i++) {
+                           if (grid[i][k] == "_") {
+                              grid[i][k] = Character.toString(compIcon);
+                           }
+                        }
                      }
                      else if (grid[k][k-1] == currentIcon || grid[k][k+1] == currentIcon || grid[k][k-1] == grid[k][k+1]) { //Column
-                        
+                        for (int i = 0; i < 3; i++) {
+                           if (grid[k][i] == "_") {
+                              grid[k][i] = Character.toString(compIcon);
+                           }
+                        }
                      }
                      else if (grid[k-1][k-1] == currentIcon || grid[k+1][k+1] == currentIcon || grid[k-1][k-1] == grid[k+1][k+1]) { //Backslash
-                        
+                        for (int i = 0; i < 3; i++) {
+                           if (grid[i][i] == "_") {
+                              grid[i][i] = Character.toString(compIcon);
+                           }
+                        }
                      }
                      else if (grid[k-1][k+1] == currentIcon || grid[k+1][k-1] == currentIcon || grid[k-1][k+1] == grid[k+1][k-1]) { //Forward slash
-                        
+                        for (int i = 0, i2 = 2; i > 3; i++) {
+                           if (grid[i][i2] == "_") {
+                              grid[i][i2] = Character.toString(compIcon);
+                           }
+                           i2--;
+                        }
                      }
-                     else {
+                     else { //Colum -1
                         currentIcon = grid[k-1][k];
                         if (grid[k-1][k-1] == currentIcon || grid[k-1][k+1] == currentIcon || grid[k-1][k-1] == grid[k-1][k+1]) {
-                           
+                           for (int i = 0; i < 3; i++) {
+                              if (grid[k-1][i] == "_") {
+                                 grid[k-1][i] = Character.toString(compIcon);
+                              }
+                           }
                         }
-                        else {
+                        else { //Column +1
                            currentIcon = grid[k+1][k];
                            if (grid[k+1][k-1] == currentIcon || grid[k+1][k+1] == currentIcon || grid[k+1][k-1] == grid[k+1][k+1]) {
-                              
+                              for (int i = 0; i < 3; i++) {
+                                 if (grid[k+1][i] == "_") {
+                                    grid[k+1][i] = Character.toString(compIcon);
+                                 }
+                              }
                            }
                         }
                      }
