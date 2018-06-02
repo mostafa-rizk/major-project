@@ -11,7 +11,8 @@ public class gamefile {
       grid[2][0] = "_"; grid[2][1] = "_"; grid[2][2] = "_";
       char userIcon, compIcon = 'a';
       String userChoice;
-      int turn = 1;
+      int turn = 0;
+      String currentIcon;
       boolean gameComplete = false;
       System.out.println("Welcome to Tic-tac-toe. You will choose where to put your piece using letters and numbers to represent a grid system where the top left is the origin. For example, type 'A2' for first row and second column.");
       try {
@@ -55,8 +56,25 @@ public class gamefile {
             }
             System.out.println();
          }
-         if (turn != 1) {
-            if (grid[1][1] != "_") {
+         turn++;
+          if (turn == 1) { //Deciding computer's first move
+            Random r = new Random();
+            int temp = r.nextInt(3-1) + 1;
+            if (temp == 1) {
+               grid[1][1] = Character.toString(compIcon);
+            }
+            else {
+               temp = r.nextInt(5-1) + 1;
+               switch (temp) {
+                  case 1: grid[0][0] = Character.toString(compIcon); break;
+                  case 2: grid[0][2] = Character.toString(compIcon); break;
+                  case 3: grid[2][0] = Character.toString(compIcon); break;
+                  case 4: grid[2][2] = Character.toString(compIcon); break;
+               }
+            }
+         }
+         else {
+            if (grid[1][1] != "_") { //Checking for special pattern
                for (int j = 0; j < 3; j+= 2) {
                   for (int k = 0; k < 3; k+= 2) {
                      if (grid[j][k] != "_") {
@@ -76,24 +94,47 @@ public class gamefile {
                   }
                }
             }
-         }
-         else {
-            Random r = new Random();
-            int temp = r.nextInt(3-1) + 1;
-            if (temp == 1) {
-               grid[1][1] = Character.toString(compIcon);
-            }
             else {
-               temp = r.nextInt(5-1) + 1;
-               switch (temp) {
-                  case 1: grid[0][0] = Character.toString(compIcon); break;
-                  case 2: grid[0][2] = Character.toString(compIcon); break;
-                  case 3: grid[2][0] = Character.toString(compIcon); break;
-                  case 4: grid[2][2] = Character.toString(compIcon); break;
+               for (int k = 0; k < 3; k++) {
+                  currentIcon = grid[1][k];
+                  if (k != 1) { //Check if on either row 1 or 3
+                     if (grid[k-1][k] == currentIcon || grid[k+1][k] == currentIcon || grid[k-1][k] == grid[k+1][k]) { //Row
+                        for (int i = 0; i < 3; i++) {
+                           if (grid[i][k] == "_") {
+                              grid[i][k] = Character.toString(compIcon);
+                           }
+                        }
+                     }
+                  }
+                  else {
+                     if (grid[k-1][k] == currentIcon || grid[k+1][k] == currentIcon || grid[k-1][k] == grid[k+1][k]) { //Row
+                        
+                     }
+                     else if (grid[k][k-1] == currentIcon || grid[k][k+1] == currentIcon || grid[k][k-1] == grid[k][k+1]) { //Column
+                        
+                     }
+                     else if (grid[k-1][k-1] == currentIcon || grid[k+1][k+1] == currentIcon || grid[k-1][k-1] == grid[k+1][k+1]) { //Backslash
+                        
+                     }
+                     else if (grid[k-1][k+1] == currentIcon || grid[k+1][k-1] == currentIcon || grid[k-1][k+1] == grid[k+1][k-1]) { //Forward slash
+                        
+                     }
+                     else {
+                        currentIcon = grid[k-1][k];
+                        if (grid[k-1][k-1] == currentIcon || grid[k-1][k+1] == currentIcon || grid[k-1][k-1] == grid[k-1][k+1]) {
+                           
+                        }
+                        else {
+                           currentIcon = grid[k+1][k];
+                           if (grid[k+1][k-1] == currentIcon || grid[k+1][k+1] == currentIcon || grid[k+1][k-1] == grid[k+1][k+1]) {
+                              
+                           }
+                        }
+                     }
+                  }
                }
             }
          }
-         turn++;
          //break;
       }
    }
