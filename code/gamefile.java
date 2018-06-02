@@ -11,9 +11,9 @@ public class gamefile {
       grid[2][0] = "_"; grid[2][1] = "_"; grid[2][2] = "_";
       char userIcon, compIcon = 'a';
       String userChoice;
-      int turn = 0;
+      int turn = 0, lastMoveX, lastMoveY;
       String currentIcon;
-      boolean gameComplete = false;
+      boolean gameComplete = false, computerMoved;
       System.out.println("Welcome to Tic-tac-toe. You will choose where to put your piece using letters and numbers to represent a grid system where the top left is the origin. For example, type 'A2' for first row and second column.");
       try {
          do {
@@ -57,6 +57,7 @@ public class gamefile {
             System.out.println();
          }
          turn++;
+         computerMoved = false;
           if (turn == 1) { //Deciding computer's first move
             Random r = new Random();
             int temp = r.nextInt(3-1) + 1;
@@ -90,11 +91,12 @@ public class gamefile {
                         else {
                            k = 0;
                         }
+                        computerMoved = true;
                      }
                   }
                }
             }
-            else {
+            else if (!computerMoved){
                for (int k = 0; k < 3; k++) {
                   currentIcon = grid[1][k];
                   if (k != 1) { //Check if on either row 1 or 3
@@ -102,6 +104,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][k] == "_") {
                               grid[i][k] = Character.toString(compIcon);
+                              computerMoved = true;
                            }
                         }
                      }
@@ -111,6 +114,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][k] == "_") {
                               grid[i][k] = Character.toString(compIcon);
+                              computerMoved = true;
                            }
                         }
                      }
@@ -118,6 +122,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[k][i] == "_") {
                               grid[k][i] = Character.toString(compIcon);
+                              computerMoved = true;
                            }
                         }
                      }
@@ -125,6 +130,7 @@ public class gamefile {
                         for (int i = 0; i < 3; i++) {
                            if (grid[i][i] == "_") {
                               grid[i][i] = Character.toString(compIcon);
+                              computerMoved = true;
                            }
                         }
                      }
@@ -132,6 +138,7 @@ public class gamefile {
                         for (int i = 0, i2 = 2; i > 3; i++) {
                            if (grid[i][i2] == "_") {
                               grid[i][i2] = Character.toString(compIcon);
+                              computerMoved = true;
                            }
                            i2--;
                         }
@@ -142,6 +149,7 @@ public class gamefile {
                            for (int i = 0; i < 3; i++) {
                               if (grid[k-1][i] == "_") {
                                  grid[k-1][i] = Character.toString(compIcon);
+                                 computerMoved = true;
                               }
                            }
                         }
@@ -151,12 +159,16 @@ public class gamefile {
                               for (int i = 0; i < 3; i++) {
                                  if (grid[k+1][i] == "_") {
                                     grid[k+1][i] = Character.toString(compIcon);
+                                    computerMoved = true;
                                  }
                               }
                            }
                         }
                      }
                   }
+               }
+               if (!computerMoved) {
+                  
                }
             }
          }
