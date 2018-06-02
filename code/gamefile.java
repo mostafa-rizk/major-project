@@ -11,7 +11,7 @@ public class gamefile {
       grid[2][0] = "_"; grid[2][1] = "_"; grid[2][2] = "_";
       char userIcon, compIcon = 'a';
       String userChoice;
-      int turn = 0, lastMoveX, lastMoveY;
+      int turn = 0, lastMoveX = 0, lastMoveY = 0, userColumn;
       String currentIcon;
       boolean gameComplete = false, computerMoved;
       System.out.println("Welcome to Tic-tac-toe. You will choose where to put your piece using letters and numbers to represent a grid system where the top left is the origin. For example, type 'A2' for first row and second column.");
@@ -180,49 +180,42 @@ public class gamefile {
                if (!computerMoved) {
                   if (lastMoveX != 1) {
                      if (lastMoveX < 1) {
-                        if (lastMoveY != 1) {
-                           if (lastMoveY < 1) {
-                              
-                           }
-                           else {
-                              
-                           }
-                        }
-                        else {
-                           
-                        }
+                        grid[lastMoveX+1][lastMoveY] = Character.toString(compIcon);
+                        lastMoveX = lastMoveX+1;
+                        computerMoved = true;
                      }
                      else {
-                        if (lastMoveY != 1) {
-                           if (lastMoveY < 1) {
-                              
-                           }
-                           else {
-                              
-                           }
-                        }
-                        else {
-                           
-                        }
+                        grid[lastMoveX-1][lastMoveY] = Character.toString(compIcon);
+                        computerMoved = true;
                      }
                   }
                   else {
-                     if (lastMoveY != 1) {
-                        if (lastMoveY < 1) {
-                           
-                        }
-                        else {
-                           
-                        }
-                     }
-                     else {
-                        
-                     }
+                     grid[lastMoveX+1][lastMoveY] = Character.toString(compIcon);
+                     computerMoved = true;
                   }
                }
             }
          }
          //break;
+         System.out.print("On which tile would you like to place your player icon? ");
+         userChoice = kbReader.next();
+         if (userChoice.length() == 2) {
+            switch (userChoice.substring(0,1).toUpperCase()) {
+               case "A": userColumn = 0; break;
+               case "B": userColumn = 1; break;
+               case "C": userColumn = 2; break;
+               default: userColumn = 3; System.out.println("The first letter of your input must be 'A', 'B', or 'C'"); break;
+            }
+            if (userColumn = 3) {
+               
+            }
+            if (grid[Integer.parseInt(userChoice.substring(1,2))][userColumn] == "_") {
+               grid[Integer.parseInt(userChoice.substring(1,2))][userColumn] == Character.toString(userIcon);
+            }
+            else {
+               System.out.println("The tile you selected is already occupied. Please select another tile.");
+            }
+         }
       }
    }
 }
